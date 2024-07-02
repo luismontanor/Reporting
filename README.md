@@ -1,5 +1,3 @@
-
-
 # Proyecto Marla - Análisis de Encuesta
 
 Este proyecto contiene el análisis de una encuesta realizada para el proyecto inmobiliario Marla, desarrollado por la empresa MK. El objetivo del análisis es evaluar la satisfacción de los clientes, su conocimiento sobre la empresa y la probabilidad de que recomienden la empresa a otros.
@@ -23,21 +21,15 @@ El proyecto incluye un script en Python (`prueba.py`) que realiza las siguientes
 ## Requisitos
 
 - Python 3.x
-- Bibliotecas de Python:
-  - `mysql-connector-python`
-  - `pandas`
-  - `matplotlib`
-  - `seaborn`
-  - `fpdf`
-  - `openai`
+- Bibliotecas de Python (ver `requirements.txt`)
 
 ## Instalación
 
-1. Clona este repositorio:
+1. Clona este repositorio
 
 2. Instala las dependencias:
    ```bash
-   pip install mysql-connector-python pandas matplotlib seaborn fpdf openai
+   pip install -r requirements.txt
    ```
 
 ## Uso
@@ -53,10 +45,9 @@ El proyecto incluye un script en Python (`prueba.py`) que realiza las siguientes
 
 - `prueba.py`: Script principal que realiza el análisis y genera el informe.
 - `Informe_Encuesta_Proyecto_Marla.pdf`: Informe en PDF generado por el script.
+- `requirements.txt`: Archivo con las dependencias necesarias para ejecutar el proyecto.
 - `README.md`: Este archivo.
 
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, abre un issue o envía un pull request para discutir cualquier cambio que te gustaría realizar.
-
-
